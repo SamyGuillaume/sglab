@@ -503,10 +503,7 @@
 			<tfoot>
 				<tr>
 					<td colspan="2" rowspan="4">
-						<div>
-							<p class="outline">Acompte lié</p>
-							<p>Facture d'acompte n°{{ invoice_deposit_number }} de {{ invoice_deposit_amount }}</p>
-						</div>
+						{{ invoice_deposit_block }}
 					</td>
 					<td colspan="3">Total HT</td>
 					<td colspan="2">{{ total_ht }} €</td>
