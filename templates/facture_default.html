@@ -501,25 +501,7 @@
 				{{ prestations_rows }}
 			</tbody>
 			<tfoot>
-				<tr>
-					<td colspan="2" rowspan="4">
-						{{ invoice_deposit_block }}
-					</td>
-					<td colspan="3">Total HT</td>
-					<td colspan="2">{{ total_ht }} €</td>
-				</tr>
-				<tr>
-					<td colspan="3">Total débours</td>
-					<td colspan="2">{{ total_disbursements }} €</td>
-				</tr>
-				<tr>
-					<td colspan="3">Total TVA</td>
-					<td colspan="2">{{ total_vat }} €</td>
-				</tr>
-				<tr>
-					<td colspan="3">Total TTC</td>
-					<td colspan="2">{{ total_cost }} €</td>
-				</tr>
+				{{ invoice_totals_block }}
 			</tfoot>
 		</table>
 
