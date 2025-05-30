@@ -206,7 +206,7 @@
 		}
 
 		.invoice-details>div {
-			width: calc(25% - 16px);
+			width: calc((100% - 4 * 16px) / 5);
 		}
 
 		.invoice-details>div p:last-child {
@@ -470,6 +470,10 @@
 			<div>
 				<p>Date de facture</p>
 				<p>{{ invoice_date }}</p>
+			</div>
+			<div>
+				<p>Date de livraison</p>
+				<p>{{ delivery_date }}</p>
 			</div>
 			<div>
 				<p>Conditions de règlement</p>
